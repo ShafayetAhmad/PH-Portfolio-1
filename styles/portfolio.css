@@ -169,3 +169,14 @@ main {
   font-size: 16px;
   font-weight: 400;
 }
+
+/* Resume section  */
+
+.resume-column {
+}
+
+.resume-section-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
