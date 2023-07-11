@@ -22,7 +22,7 @@ nav {
   color: #fd6e0a;
 }
 
-nav>ul {
+nav > ul {
   list-style: none;
   display: flex;
   align-items: center;
@@ -36,27 +36,51 @@ nav li {
 }
 
 .btn-primary {
-    color: white;
-    background-color: #fd6e0a;
-    border-radius: 5px;
-    padding: 18px 35px 19px 36px;
-    border: none;
-    font-size: 20px;
-    font-weight: 700;
+  color: white;
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  padding: 18px 35px 19px 36px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 /* header related styles  */
 
 .header {
-  background-color: #FFF8F3;
+  background-color: #fff8f3;
 }
 
 .banner {
   display: flex;
-  padding: 30px 30px 30px 200px;
+  padding: 30px 30px 0px 200px;
   align-items: center;
+  background-image: url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  justify-content: space-between;
 }
 
 .banner .profile-pic {
   width: 500px;
+}
+
+.banner-greetings {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.banner-title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.banner-desc {
+  margin-top: 0px;
+  max-width: 500px;
 }
