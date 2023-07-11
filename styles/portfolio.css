@@ -136,3 +136,7 @@ line-height: 30px;
 .info-desc {
   font-weight: bold;
 }
+
+#what-i-do-desc {
+  padding: 30px 150px;
+}
